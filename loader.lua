@@ -8,7 +8,7 @@ local function loadModule(url)
     end
 end
 
--- ⚠️ ЗАМЕНИТЬ НА СВОИ ДАННЫЕ:
+-- ✅ Твои настоящие данные для подключения
 local BASE = "https://raw.githubusercontent.com/xwellett637-glitch/KusmanClient/refs/heads/main/"
 
 loadModule(BASE .. "config.lua")
