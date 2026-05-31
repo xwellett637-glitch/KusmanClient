@@ -8,7 +8,9 @@ local function loadModule(url)
     end
 end
 
-local BASE = "https://raw.githubusercontent.com/ВАШ_АККАУНТ/ВАШ_РЕПОЗИТОРИЙ/main/"
+-- ⚠️ ЗАМЕНИТЬ НА СВОИ ДАННЫЕ:
+local BASE = "https://raw.githubusercontent.com/xwelllett637-glitch/KusmanClient/refs/heads/main/"
+
 loadModule(BASE .. "config.lua")
 loadModule(BASE .. "core.lua")
 loadModule(BASE .. "gui.lua")
